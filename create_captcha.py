@@ -37,8 +37,8 @@ def gen_captcha_text_and_image():
 
 # The image numbers to generate.
 # WARNING: the name of image is the text of CAPTCHA image, might be repeat.
-# Make sure this number not too large.
-num = 1000
+# Make sure this number not too large (below 2000).
+num = 500
 
 if __name__ == '__main__':
 
